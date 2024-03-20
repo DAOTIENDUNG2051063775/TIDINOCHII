@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 50px;
+    background: rgb(38, 57, 51);
+}
+
+header {
+     background: rgb(38, 57, 51);  
+     height: 70px;
+     width: 100%;
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
+nav{
+    height: 90px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(38, 57, 51);
+}
+nav img{
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    border-radius: 9px;
+}
+nav ul {
+    display: flex;
+  
+}
+nav li{
+    height: 40px;
+    width: 180px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgb(242, 170, 144);
+    list-style: none;
+    margin-top: 6px;
+    margin-right: 70px;
+    border: 1px solid rgb(227, 143, 78);
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(28, 24, 24);
+    
+}
+nav li :hover{
+    color: rgb(147, 140, 140);
+    background-color: rgb(248, 203, 168);
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+nav a{
+    color: rgb(38, 57, 51);
+    text-decoration: none;
+}
+main{
+    margin-top: 100px;
+}
+
+#mon ul{
+    display: flex;
+    justify-content: space-between;
+}
+#mon li {
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+#mon img {
+    height: 100%;
+    width: 100%;
+    
+}
+#cun{
+    margin-top: 90px;
+   
+}
+#cun ul {
+    display: flex;
+    justify-content: space-between;
+}
+#cun img {
+    height: 100%;
+    width: 100%;
+    
+}
+#cun li {
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.thucung h1 {
+    border-radius: 8px;
+    border: 1px solid rgb(227, 143, 78);
+    padding: 10px;
+    font-size: 26px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(242, 170, 144);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(38, 57, 51);
+    padding: 0px 30px;
+    
+ 
+  
+ }
+
+footer img{
+    height: 70px;
+    width: 200px;
+   
+
+
+}
+footer li{
+    list-style: none;
+    
+    width: 300px;
+    padding: 0px 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+footer ul{
+    display: flex;
+}
+
+footer p{
+   color: rgb(31, 104, 104);
+}
+#mxh ul{
+    justify-content: end;
+    margin-top: 30px;
+}
+#mxh li{
+    width: 90px;
+
+
+    margin: 0px;
+}
+footer i {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(209, 204, 198);
+    text-align: center;
+    padding-right: 100px;
+    
+    
+}
+
+
